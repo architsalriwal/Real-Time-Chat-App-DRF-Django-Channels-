@@ -19,14 +19,18 @@ Key Features
  
 Clone the repo and install dependencies:
 
- bash
- Copy code
-  git clone https://github.com/your-username/realtime-chat-app.git
-  cd realtime-chat-app
-  pip install -r requirements.txt
+   bash Code
+   
+   git clone https://github.com/your-username/realtime-chat-app.git
+   
+   cd realtime-chat-app
+
+pip install -r requirements.txt
  
- Run Redis and start the server:
-  bash
-   Copy code
-    redis-server
-    python manage.py runserver
+   Run Redis and start the server:
+   
+  bash code
+ 
+redis-server
+
+python manage.py runserver
